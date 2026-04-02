@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEUROMARCK</title>
+    <!-- Modern Premium Typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">NEUROMARCK<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#neuromarketing">Neuromarketing</a></li>
+            <li><a href="#ia">Inteligencia Artificial</a></li>
+            <li><a href="#contacto">Evolucionar</a></li>
+        </ul>
+    </nav>
+
+    <!-- 3D Sculpture Image Sequence Element -->
+    <div class="canvas-container" id="canvas-container">
+        <!-- 00001.png is the first frame of your sequence -->
+        <img id="sculpture-img" src="00001.png" alt="Escultura 3D en rotación">
+    </div>
+
+    <main class="content-wrapper">
+        <!-- Hero Section -->
+        <section class="section hero-section">
+            <div class="content">
+                <p class="subtitle">Esculpiendo identidades con ciencia</p>
+                <h1 class="title">NEUROMARCK</h1>
+            </div>
+            
+            <!-- Animated Scroll indicator -->
+            <div class="scroll-indicator">
+                <span class="scroll-text">Usa el scroll para girar</span>
+                <div class="scroll-line"></div>
+            </div>
+        </section>
+
+        <!-- Espacio en blanco para scrollear sin tapar el modelo -->
+        <section class="section spacer"></section>
+
+        <!-- Information Section Right -->
+        <section class="section detail-section" id="neuromarketing">
+            <div class="content align-right">
+                <span class="tag">Neuromarketing</span>
+                <h2>La Ciencia de la <br>Emoción</h2>
+                <p>El neuromarketing decodifica las respuestas subconscientes de tu audiencia. Entendiendo cómo el cerebro procesa estímulos, colores y mensajes, construimos una marca personal que conecta de forma instintiva e inolvidable con tu público.</p>
+            </div>
+        </section>
+
+        <section class="section spacer"></section>
+
+        <!-- Information Section Left -->
+        <section class="section detail-section" id="ia">
+            <div class="content align-left">
+                <span class="tag">Inteligencia Artificial</span>
+                <h2>Optimización <br>Cognitiva</h2>
+                <p>La IA permite analizar millones de patrones de comportamiento para afinar tu mensaje. Al potenciar tus habilidades naturales con algoritmos predictivos, proyectarás una imagen de marca coherente, omnipresente y basada en datos reales.</p>
+            </div>
+        </section>
+
+        <section class="section spacer"></section>
+
+        <!-- Final Footer Section -->
+        <section class="section footer-section" id="contacto">
+            <div class="content">
+                <h2>Tu Marca, <br>Evolucionada</h2>
+                <button class="btn-primary">Inicia tu Transformación</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
